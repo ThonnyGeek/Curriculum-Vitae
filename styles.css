@@ -5,9 +5,60 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-header{
+header, main{
     display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    /* border-bottom: .1rem dotted gray; */
+    /* background-color: rgba(218, 218, 218, 0.171); */
+    background-color: rgba(0, 255, 255, 0.062);
+    padding: 1rem;
+    margin: 1rem;
+}
+.left-container{
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name{
+    order: 1;
+    font-size: 1.17rem;
+    text-transform: uppercase;
+}
+.header-h2{
+    order: 3;
+    font-size: 1.3rem;
+    font-weight: bold 400;
+}
+.img-container{
+    order: 2;
+    width: 30%;
+    padding-left: 1rem;
+}
+.personal-img{
+    width: 100%;
+}
+.header-p{
+    order: 4;
+    font-size: 1.3rem;
+    /* padding: 1rem; */
+}
+.img-container, .left-container{
+    height: 13rem;
+    display: flex;
+    align-items: center;
+}
+hr{
+    border-top: 0;
+    margin: 1rem 0;
+    border-bottom: dotted gray .1rem;
+}
+.ere{
+    font-size: 100%;
+    font-weight: normal;
+    text-transform: uppercase;
 }

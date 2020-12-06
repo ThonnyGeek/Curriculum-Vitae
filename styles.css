@@ -97,8 +97,31 @@ main{
 
 footer{
     background-color: rgba(0, 255, 255, 0.062);
-    padding: 1rem;
     margin: .3rem 1rem .3rem 1rem;
     border: .1rem solid rgba(128, 128, 128, 0.116);
     border-radius: .5rem;
+    display: flex;
+}
+.ft{
+    margin: 1rem;
+    padding: .5rem;
+    border: .1rem solid rgba(0, 0, 0, 0.281);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.ft ul{
+    list-style: none;
+}
+.h2ft{
+    margin: 2rem;
+}
+.contact{
+    /* border: .1rem solid black; */
+    font-style: normal;
+}
+
+.linkedin-logo{
+    height: 5vh;
 }

@@ -77,6 +77,11 @@ main{
 .dates{
     font-style: italic;
 }
+.act
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
 .m-left-container{
     width: 100%;
 }

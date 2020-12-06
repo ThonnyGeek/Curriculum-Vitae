@@ -119,15 +119,16 @@ footer{
     list-style: none;
 }
 .h2ft{
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 .contact{
     font-style: normal;
+    display: flex;
 }
 .contact, .skills, .languages{
-    width: 30vw;
+    width: 10rem;
 }
 
-.linkedin-logo{
+.linkedin-logo, .gmail-logo{
     height: 5vh;
 }

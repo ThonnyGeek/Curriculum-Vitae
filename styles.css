@@ -8,7 +8,7 @@ html{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-header, main{
+header{
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
@@ -19,7 +19,7 @@ header, main{
     padding: 1rem;
     margin: 1rem;
 }
-.left-container{
+.h-left-container{
     width: 70%;
     flex-direction: column;
     justify-content: space-around;
@@ -47,7 +47,7 @@ header, main{
     font-size: 1.3rem;
     /* padding: 1rem; */
 }
-.img-container, .left-container{
+.img-container, .h-left-container{
     height: 13rem;
     display: flex;
     align-items: center;
@@ -57,8 +57,31 @@ hr{
     margin: 1rem 0;
     border-bottom: dotted gray .1rem;
 }
-.ere{
-    font-size: 100%;
-    font-weight: normal;
+main{
+    background-color: rgba(0, 255, 255, 0.062);
+    padding: 1rem;
+    margin: 1rem;
+}
+.m-h2{
+    font-size: 1.17rem;
+    font-weight: 600;
     text-transform: uppercase;
+}
+.expes{
+    border: .2rem solid rgba(0, 0, 0, 0.281);
+    border-radius: .5rem;
+    margin: .5rem;
+    display: flex;
+}
+
+.dates{
+    font-style: italic;
+}
+.m-left-container{
+    width: 100%;
+}
+.r-c, .l-c{
+    width: 100%;
+    margin: .5rem;
+    padding: .5rem;
 }

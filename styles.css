@@ -98,12 +98,15 @@ main{
 footer{
     background-color: rgba(0, 255, 255, 0.062);
     margin: .3rem 1rem .3rem 1rem;
+    padding: 1rem 0 1rem 0;
     border: .1rem solid rgba(128, 128, 128, 0.116);
     border-radius: .5rem;
     display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 .ft{
-    margin: 1rem;
+    /* margin: 1rem; */
     padding: .5rem;
     border: .1rem solid rgba(0, 0, 0, 0.281);
     border-radius: .5rem;
@@ -118,8 +121,10 @@ footer{
     margin: 2rem;
 }
 .contact{
-    /* border: .1rem solid black; */
     font-style: normal;
+}
+.contact, .skills, .languages{
+    width: 30vw;
 }
 
 .linkedin-logo{

@@ -118,8 +118,8 @@ footer{
 .ft ul{
     list-style: none;
 }
-.h2ft{
-    /* margin: 2rem; */
+.ft ul li{
+    margin: .5rem 0 .5rem 0;
 }
 .contact{
     font-style: normal;
@@ -129,6 +129,6 @@ footer{
     width: 10rem;
 }
 
-.linkedin-logo, .gmail-logo{
+.linkedin-logo, .gmail-logo, .whatsapp-logo{
     height: 5vh;
 }

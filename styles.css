@@ -28,7 +28,6 @@ header{
 }
 .name{
     order: 1;
-    font-size: 1.17rem;
     text-transform: uppercase;
 }
 .header-h2{

@@ -6,70 +6,85 @@
 html{
     font-size: 62.5%;
     font-family: 'Source Sans Pro', sans-serif;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
 }
-
-header{
+header, main{
+    background-color: azure;
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    align-items: center;
-    /* border-bottom: .1rem dotted gray; */
-    /* background-color: rgba(218, 218, 218, 0.171); */
-    background-color: rgba(0, 255, 255, 0.062);
-    padding: 1rem;
     margin: 1rem 1rem .3rem 1rem;
+    padding: 1rem;
+    min-width: 30rem;
     border: .1rem solid rgba(128, 128, 128, 0.116);
-    border-radius: .5rem;
+    border-radius: .8rem;
+}
+header{
+    justify-content: center;
 }
 .h-left-container{
     width: 70%;
-    flex-direction: column;
-    justify-content: space-around;
+}
+.name ,.header-h2{
+    height: 7rem;
 }
 .name{
     order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 210%;
     text-transform: uppercase;
 }
 .header-h2{
-    order: 3;
-    font-size: 1.3rem;
-    font-weight: bold 400;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
 }
 .img-container{
-    order: 2;
+    height: 14rem;
     width: 30%;
     padding-left: 1rem;
+    order: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .personal-img{
-    width: 100%;
-    border-radius: 1rem;
+    width: 95%;
+    border-radius: 10%;
 }
 .header-p{
     order: 4;
-    font-size: 1.3rem;
-    /* padding: 1rem; */
+    width: 143%;
+    height: 55%;
+    font-size: 120%;
+    padding: 1rem;
 }
-.img-container, .h-left-container{
-    height: 13rem;
-    display: flex;
-    align-items: center;
+.cursos{
+    color: #7fa53c;
+    text-decoration: none;
+}
+.uni{
+    color: #e20d1494;
+    text-decoration: none;
 }
 hr{
-    border-top: 0;
-    /* margin: .1rem 0; */
-    border-bottom: dotted gray .1rem;
-}
-main{
-    background-color: rgba(0, 255, 255, 0.13);
-    padding: 1rem;
-    margin: .3rem 1rem .3rem 1rem;
-    border: .1rem solid rgba(128, 128, 128, 0.116);
-    border-radius: .5rem;
+    /* display: none; */
+    color: white;
+    border-top: .01rem dotted rgb(209, 208, 208);
+    border-bottom: 0;
 }
 .h2s{
     font-size: 1.17rem;
     font-weight: 600;
     text-transform: uppercase;
+}
+.m-left-container{
+    width: 100%;
 }
 .expes{
     border: .2rem solid rgba(0, 0, 0, 0.281);
@@ -85,9 +100,6 @@ main{
 {
     font-weight: bold;
     text-decoration: underline;
-}
-.m-left-container{
-    width: 100%;
 }
 .r-c, .l-c{
     width: 100%;

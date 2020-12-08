@@ -1,0 +1,27 @@
+header{
+    align-items: center;
+}
+.name ,.header-h2{
+    height: 33%;
+}
+.header-h2{
+    font-size: 180%;
+}
+.name{
+    font-size: 250%;
+}
+.header-p{
+    width: 100%;
+    font-size: 140%;
+}
+.img-container{
+    height: 30%;
+    width: 30%;
+}
+.h-left-container{
+    height: 10%;
+}
+.personal-img{
+    max-width: 15rem;
+    min-width: 30%;
+}

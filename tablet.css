@@ -1,6 +1,9 @@
 header{
     align-items: center;
 }
+main, footer{
+    font-size: 120%;
+}
 .name ,.header-h2{
     height: 33%;
 }
